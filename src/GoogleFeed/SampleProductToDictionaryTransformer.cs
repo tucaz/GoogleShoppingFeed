@@ -10,10 +10,12 @@ namespace GoogleFeed
             {
                 yield return new Dictionary<string, string>
                 {
-                    { "Id", product.Id.ToString() },
-                    { "Name", product.Name },
-                    { "Description", product.Description },
-                    { "Price", product.Price.ToString("N2") }
+                    { "g:id", product.Id.ToString() },
+                    { "title", product.Name },
+                    { "link", product.Link },
+                    { "g:price", product.Price },
+                    { "description", product.Description },                    
+                    { "g:condition", product.Condition }
                 };
             }
         }

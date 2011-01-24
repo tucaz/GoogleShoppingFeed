@@ -40,10 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AtomContentProvider.cs" />
     <Compile Include="ContentProvider.cs" />
     <Compile Include="FileProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RSSContentProvider.cs" />
+    <Compile Include="RSS20ContentProvider.cs" />
     <Compile Include="SampleProduct.cs" />
     <Compile Include="SampleProductToDictionaryTransformer.cs" />
     <Compile Include="StreamExtensions.cs" />
