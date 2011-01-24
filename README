@@ -3,3 +3,10 @@ A Simple .NET library/tool to generate RSS2.0/Atom XML for Google Shopping.
 Start by looking at the tests or running the UI project by calling http://localhost/Products
 
 In order for it to work Visual Studio/IIS needs permission to write to C:\temp. If you don't want them writing there, just pass a new path to FileProvider constructor.
+
+ROADMAP/TODO
+
+- Add a method to update small chunks of the cached feed
+- Add a method to invalidate all cache
+- Add eager-generation of the feed cache
+- Change the response to be able to write the data as it is being read from the cached file
